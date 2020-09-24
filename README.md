@@ -23,6 +23,8 @@ credential_process = commandToGenerateCredentials arn:aws:iam::12343566789:role/
 credential_process = aws-credentials-process-cache pro_tocache
 ``` 
 
+Then use the profile using with `aws-credentials-process-cache` when ever you want to use cached credentials.
+
 # How it works
 
 This script executes the provided profile `credentials_process` and stores the result in a file at `$HOME/.aws_creds_cache`. On later invocations it checks the `Expiration` date and returns the current credential if still valid or invokes the command again.
