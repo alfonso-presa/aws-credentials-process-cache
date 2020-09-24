@@ -11,7 +11,7 @@ You need aws cli properly configured. Needs `sh` in order to execute the command
 
 First of all clone this repo locally and execute `npm i -g .` from inside the repository folder.
 
-For each credential you will like to cache you will have to add two profile entries in your `$HOME/.kube/config` file as follows:
+For each credential you will like to cache you will have to add two profile entries in your `$HOME/.aws/config` file as follows:
 
 ```
 [profile pro_tocache]
