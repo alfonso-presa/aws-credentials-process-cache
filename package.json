@@ -1,0 +1,9 @@
+{
+  "name": "aws-credentials-process-cache",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "index.js",
+  "main": "index.js",
+  "author": "Alfonso Presa",
+  "license": "ISC"
+}
