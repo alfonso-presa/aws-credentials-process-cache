@@ -21,7 +21,7 @@ credential_process = commandToGenerateCredentials arn:aws:iam::12343566789:role/
 [profile pro]
 #This will use aws-credentials-process-cache to proxy and cache your credentials for the provided profile (the one above)
 credential_process = aws-credentials-process-cache pro_tocache
-``` 
+```
 
 Then use the profile using with `aws-credentials-process-cache` when ever you want to use cached credentials.
 
