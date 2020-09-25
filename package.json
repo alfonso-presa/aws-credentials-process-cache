@@ -5,5 +5,8 @@
   "bin": "index.js",
   "main": "index.js",
   "author": "Alfonso Presa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "single-instance": "0.0.1"
+  }
 }
