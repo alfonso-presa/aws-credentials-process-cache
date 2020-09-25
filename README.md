@@ -5,7 +5,7 @@ Simple cache for credentials_process aws credentials generation technique
 
 # Requirements
 
-You need aws cli properly configured. Needs `sh` in order to execute the command, and `nodejs` to execute the script.
+You need aws cli properly configured and `nodejs` to execute the script.
 
 # How To
 
