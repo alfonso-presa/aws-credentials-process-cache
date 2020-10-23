@@ -15,7 +15,8 @@ async function getOutput(command) {
         let result = '';
         const child = spawn(command[0], command.slice(1), {env: {
             ...process.env,
-            AWS_PROFILE: undefined
+            AWS_PROFILE: undefined,
+            LD_LIBRARY_PATH: undefined,
         }});
         child.stdout.on('data', function(data) {
             result+=data;
